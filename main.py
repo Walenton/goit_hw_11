@@ -51,7 +51,7 @@ class Record:
     def __init__(self, name: str, birthday: Birthday = None) -> None:
         self.name = Name(name)
         self.phones = []
-        self.birthday = birthday  # Додати поле birthday
+        self.birthday = birthday
 
     def add_phone(self, phone: str) -> None:
         self.phones.append(Phone(phone))
